@@ -71,9 +71,9 @@ Note: Some L1 nodes (e.g. Erigon) do not support fetching storage proofs. You ca
 #### Persisting Data
 
 By default, the data directory is stored in `${PROJECT_ROOT}/geth-data`. You can override this by modifying the value of
-`GETH_HOST_DATA_DIR` variable in the [`.env`](./.env) file.
+`HOST_DATA_DIR` variable in the [`.env`](./.env) file.
 
-To load a [snapshot](#snapshots) you can extract the snapshot into the `$GETH_HOST_DATA_DIR` folder.
+To load a [snapshot](#snapshots) you can extract the snapshot into the `$HOST_DATA_DIR` folder.
 
 #### Running in single container with `supervisord`
 
